@@ -10,7 +10,7 @@ So what did i basically do here?
 2) Set the class and main methods public
 3) For some projects i merged pull requests with new features or bug fixes or i had to remove environment.exit statements so that the whole powershell process is not killed for missing parameters and so on
 4) Afterwards compiling each binary
-5) Encode the compiled binary base64 and load it in powershell via `[System.Reflection.Assembly]::Load([Convert]::FromBase64String())`.
+5) Gzip-compress and base64-Encode the compiled binary base64 and load it in powershell via `[System.Reflection.Assembly]::Load($DecompressedDecodedBinary)`.
 
 Its a very easy but for many repos time consuming process.
 
@@ -252,4 +252,24 @@ Windows C# LLMNR/mDNS/NBNS/DNS/DHCPv6 spoofer/man-in-the-middle tool .
  
 Fork of SafetyKatz that dynamically fetches the latest pre-compiled release of Mimikatz directly from gentilkiwi GitHub repo, runtime patches signatures and uses SharpSploit DInvoke to PE-Load into memory.
  @Credit to: https://github.com/Flangvik/BetterSafetyKatz
+
+**SharpKatz**
+ 
+C# Port of mimikatz sekurlsa::logonpasswords, sekurlsa::ekeys and lsadump::dcsync commands.
+ @Credit to: https://github.com/b4rtik/SharpKatz
+
+**Gopher**
+
+C# tool to discover low hanging fruits.
+@Credit to: https://github.com/EncodeGroup/Gopher
+
+**SharpOxidResolver**
+
+IOXIDResolver from AirBus Security/PingCastle.
+@Credit to: https://github.com/vletoux/pingcastle/
+
+**SharpBlock**
+
+A method of bypassing EDR's active projection DLL's by preventing entry point exection.
+@Credit to: https://github.com/CCob/SharpBlock
 
