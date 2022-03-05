@@ -397,4 +397,41 @@ Farmer is a project for collecting NetNTLM hashes in a Windows domain. Farmer ac
 **SharpBypassUAC**
 
 C# tool for UAC bypasses 
+
 @Credit to: https://github.com/FatRodzianko/SharpBypassUAC
+
+**StandIn**
+
+StandIn is a small .NET35/45 AD post-exploitation toolkit
+
+@Credit to: https://github.com/FuzzySecurity/StandIn
+
+**Carbuncle**
+
+Tool for interacting with outlook interop during red team engagements 
+
+@Credit to: https://github.com/checkymander/Carbuncle
+
+
+#### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
+
+
+**HandleKatz**
+
+PIC lsass dumper using cloned handles
+
+@Credit to: https://github.com/codewhitesec/HandleKatz
+
+
+**NanoDump**
+
+Dump LSASS like you mean it
+
+@Credit to: https://github.com/helpsystems/nanodump
+
+
+**PPLDump**
+
+Dump the memory of a PPL with a userland exploit
+
+@Credit to: https://github.com/itm4n/PPLdump
