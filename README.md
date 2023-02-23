@@ -1,3 +1,8 @@
+# Sponsored by
+
+[<img src="https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/happy_alp.png" width="300" height="300">](https://www.bluebastion.net/) &emsp; &emsp; &emsp;
+[<img src="https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/Kovert.png" width="250" height="250">](https://kovert.no/)
+
 # PowerSharpPack
 
 Many useful offensive CSharp Projects wraped into Powershell for easy usage.
@@ -431,12 +436,6 @@ C# project to check LDAP signing.
 
 @Credit to: https://github.com/cube0x0/LdapSignCheck
 
-**KrbRelayUp**
-
-KrbRelayUp - a universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced (the default settings).
-
-@Credit to: https://github.com/Dec0ne/KrbRelayUp
-
 **SharpImpersonation**
 
 SharpImpersonation - A User Impersonation tool - via Token or Shellcode injection.
@@ -460,6 +459,24 @@ This tool allows you to abuse local or remote SCCM servers to deploy malicious a
 Framework for Kerberos relaying
 
 @Credit to: https://github.com/cube0x0/KrbRelay
+
+**SharpSCCM**
+
+A C# utility for interacting with SCCM 
+
+@Credit: https://github.com/Mayyhem/SharpSCCM
+
+**ShadowSpray**
+
+A tool to spray Shadow Credentials across an entire domain in hopes of abusing long forgotten GenericWrite/GenericAll DACLs over other objects in the domain.
+
+@Credit: https://github.com/Dec0ne/ShadowSpray
+
+**Grouper3**
+
+Find vulnerabilities in AD Group Policy, but do it better than Grouper2 did.
+
+@Credit to: https://github.com/Group3r/Group3r
 
 #### _The last two are basically no Assemblies. But I did built an Assembly to execute them from memory, which is loadable via the technique from this repo. Another technique in the background for execution, but still usefull_:
 
