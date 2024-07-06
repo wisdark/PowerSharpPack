@@ -1,7 +1,6 @@
 # Sponsored by
 
 [<img src="https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/happy_alp.png" width="300" height="300">](https://www.bluebastion.net/) &emsp; &emsp; &emsp;
-[<img src="https://github.com/S3cur3Th1sSh1t/PowerSharpPack/raw/master/images/Kovert.png" width="250" height="250">](https://kovert.no/)
 
 # PowerSharpPack
 
@@ -237,6 +236,12 @@ Projects which are also available as standalone powershell script:
  C# Data Collector for the BloodHound Project, Version 3
  
  @Credit to: https://github.com/BloodHoundAD/SharpHound3
+
+**PostDump**
+
+Another tool to perform minidump of LSASS process using few technics to avoid detection.
+
+@Credit to: https://github.com/YOLOP0wn/POSTDump
 
  **SharpLocker**
 
